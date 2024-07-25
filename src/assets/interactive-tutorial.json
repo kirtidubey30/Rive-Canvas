@@ -1,0 +1,151 @@
+{
+  "audioMap": {
+    "intro": {
+      "Timeline 1 (0)": "assets/rive/english/audio/introaudio/intro1.mp3",
+      "Timeline 2 (1)": "assets/rive/english/audio/introaudio/intro2.mp3",
+      "Timeline 3 (2)": "assets/rive/english/audio/introaudio/intro3.mp3",
+      "Timeline 4 (3)": "assets/rive/english/audio/introaudio/intro4.mp3",
+      "Timeline 5 (4)": "assets/rive/english/audio/introaudio/intro5.mp3",
+      "Timeline 7 (5)": "assets/rive/english/audio/introaudio/intro6.mp3",
+      "Timeline 8 (6)": "assets/rive/english/audio/introaudio/intro7.mp3",
+      "Timeline 9 (7)": "assets/rive/english/audio/introaudio/intro8.mp3",
+      "Timeline 12 (8)": "assets/rive/english/audio/introaudio/intro9.mp3",
+      "Timeline 13 (9)": "assets/rive/english/audio/introaudio/intro10.mp3",
+      "Timeline 14 (10)": "assets/rive/english/audio/introaudio/intro13.mp3"
+    },
+    "hand1": {
+      "artBoard1": {
+        "Timeline 2 (1)": "assets/rive/english/audio/hand1/audio1.wav",
+        "Timeline 3 (2)": "assets/rive/english/audio/hand1/audio32.wav",
+        "Timeline 4 (3)": "assets/rive/english/audio/hand1/audio33.wav",
+        "Timeline 5 (4)": "assets/rive/english/audio/hand1/audio2.wav",
+        "Timeline 6 (5)": "assets/rive/english/audio/hand1/audio3.wav",
+        "Timeline 7 (6)": "assets/rive/english/audio/hand1/audio4.wav",
+        "Timeline 8 (7)": "assets/rive/english/audio/hand1/audio5.wav",
+        "Timeline 9 (8)": "assets/rive/english/audio/hand1/audio6.wav",
+        "Timeline 10 (9)": "assets/rive/english/audio/hand1/audio7.wav",
+        "Timeline 11 (10)": "assets/rive/english/audio/hand1/audio8.wav",
+        "Timeline 12 (11)": "assets/rive/english/audio/hand1",
+        "next_trigger_1": "assets/rive/english/audio/hand1"
+      },
+      "artBoard2": {
+        "Timeline 1 (0)": "assets/rive/english/audio/hand1/audio9.wav",
+        "Timeline 3 (2)": "assets/rive/english/audio/hand1/audio10.wav",
+        "Timeline 4 (3)": "assets/rive/english/audio/hand1/audio34.wav",
+        "Timeline 5 (4)": "assets/rive/english/audio/hand1/audio11.wav",
+        "Timeline 6 (5)": "assets/rive/english/audio/hand1/audio12.wav",
+        "Timeline 7 (6)": "assets/rive/english/audio/hand1/audio13.wav",
+        "Timeline 8 (7)": "assets/rive/english/audio/hand1/audio14.wav",
+        "Timeline 9 (8)": "assets/rive/english/audio/hand1/audio14.wav",
+        "Timeline 10 (9)": "assets/rive/english/audio/hand1/audio15.wav",
+        "Timeline 11 (10)": "assets/rive/english/audio/hand1/audio16.wav",
+        "next_trigger_2": "assets/rive/english/audio/hand1/"
+      },
+      "artBoard3": {
+        "Timeline 12 (1)": "assets/rive/english/audio/hand1/audio17.wav",
+        "Timeline 13 (2)": "assets/rive/english/audio/hand1/audio18.wav",
+        "Timeline 14 (3)": "assets/rive/english/audio/hand1/audio19.wav",
+        "Timeline 15 (5)": "assets/rive/english/audio/hand1/audio20.wav",
+        "Timeline 16 (6)": "assets/rive/english/audio/hand1/",
+        "next_trigger_3": "assets/rive/english/audio/hand1/"
+      },
+      "artBoard4": {
+        "Timeline 30 (0)": "assets/rive/english/audio/hand1/audio21.wav",
+        "Timeline 31 (1)": "assets/rive/english/audio/hand1/audio22.wav",
+        "Timeline 32 (2)": "assets/rive/english/audio/hand1/audio23.wav",
+        "Timeline 33 (3)": "assets/rive/english/audio/hand1/audio24.wav",
+        "Timeline 35 (4)": "assets/rive/english/audio/hand1/",
+        "Timeline 35": "assets/rive/english/audio/hand1/",
+        "Timeline 36": "assets/rive/english/audio/hand1/audio25.wav",
+        "Timeline 37": "assets/rive/english/audio/hand1/audio26.wav",
+        "Timeline 38": "assets/rive/english/audio/hand1/audio27.wav",
+        "Timeline 39": "assets/rive/english/audio/hand1/audio27.wav",
+        "Timeline 40": "assets/rive/english/audio/hand1/audio28.wav"
+      }
+    },
+    "hand2": {
+      "artBoard1": {
+        "Timeline 2 (2)": "assets/rive/english/audio/hand2/audio1.wav",
+        "Timeline 3 (3)": "assets/rive/english/audio/hand2/audio2.wav",
+        "Timeline 4 (4)": "assets/rive/english/audio/hand2/audio3.wav",
+        "Timeline 5 (5)": "assets/rive/english/audio/hand2/audio4.wav",
+        "Timeline 6 (6)": "assets/rive/english/audio/hand2/audio5.wav",
+        "Timeline 7 (7)": "assets/rive/english/audio/hand2/audio6.wav",
+        "Timeline 8 (8)": "assets/rive/english/audio/hand2/audio7.wav",
+        "Timeline 9 (9)": "assets/rive/english/audio/hand2/audio8.wav",
+        "Timeline 10 (10)": "assets/rive/english/audio/hand2/audio9.wav",
+        "Timeline 11 (11)": "assets/rive/english/audio/hand2/audio10.wav",
+        "next_trigger_1": "assets/rive/english/audio/hand2/"
+      },
+      "artBoard2": {
+        "Timeline 1 (1)": "assets/rive/english/audio/hand2/audio11.wav",
+        "Timeline 2 (2)": "assets/rive/english/audio/hand2/audio12.wav",
+        "Timeline 3 (3)": "assets/rive/english/audio/hand2/audio13.wav",
+        "Timeline 4 (4)": "assets/rive/english/audio/hand2/audio14.wav",
+        "Timeline 5 (5)": "assets/rive/english/audio/hand2/audio15.wav",
+        "Timeline 6 (6)": "assets/rive/english/audio/hand2/audio16.wav",
+        "Timeline 7 (7)": "assets/rive/english/audio/hand2/",
+        "Timeline 8 (8)": "assets/rive/english/audio/hand2/audio17.wav",
+        "Timeline 9 (9)": "assets/rive/english/audio/hand2/audio18.wav",
+        "Timeline 10 (10)": "assets/rive/english/audio/hand2/audio19.wav",
+        "Timeline 11 (11)": "assets/rive/english/audio/hand2/audio20.wav",
+        "Timeline 12 (12)": "assets/rive/english/audio/hand2/audio21.wav",
+        "Timeline 13 (13)": "assets/rive/english/audio/hand2/audio22.wav",
+        "Timeline 14 (14)": "assets/rive/english/audio/hand2/audio23.wav",
+        "next_trigger_2": "assets/rive/english/audio/hand2/"
+      },
+      "artBoard3": {
+        "Timeline 1 (1)": "assets/rive/english/audio/hand2/audio24.wav",
+        "Timeline 2 (2)": "assets/rive/english/audio/hand2/audio25.wav",
+        "Timeline 3 (3)": "assets/rive/english/audio/hand2/audio26.wav",
+        "Timeline 4 (4)": "assets/rive/english/audio/hand2/audio27.wav",
+        "Timeline 5 (5)": "assets/rive/english/audio/hand2/audio28.wav",
+        "Timeline 6 (6)": "assets/rive/english/audio/hand2/",
+        "Timeline 7 (7)": "assets/rive/english/audio/hand2/audio29.wav",
+        "Timeline 8 (8)": "assets/rive/english/audio/hand2/"
+      }
+    }
+  },
+  "stateMachine": "State Machine 1",
+  "assetsPath": "assets/rive/english/rivefile/",
+  "backTriggerFrom": {
+    "intro": false,
+    "h1": {
+      "a1": false,
+      "a2": false,
+      "a3": false
+    },
+    "h2": {
+      "a1": false,
+      "a2": false
+    }
+  },
+  "triggers": {
+    "intro": {
+      "lastTimelineValue": null,
+      "playLastTimeline": false
+    },
+    "hand1": {
+      "lastTimelineValue": {
+        "a1": null,
+        "a2": null,
+        "a3": null
+      },
+      "playLastTimeline": {
+        "a1": false,
+        "a2": false,
+        "a3": false
+      }
+    },
+    "hand2": {
+      "lastTimelineValue": {
+        "a1": null,
+        "a2": null
+      },
+      "playLastTimeline": {
+        "a1": false,
+        "a2": false
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+<div class="interactive-container">
+  <div class="interactive-tutorial-container h100"
+  *ngIf="showInteractiveContainer">
+    <div class="">
+      <div class="language-popover"  *ngIf="showLanguageSelection">
+        <div style="color: azure;">
+          Click on the Button
+        </div>
+        <div class="radio-wraper">
+          <div
+            value=""
+            class="lang-wrapper"
+          >
+            <div class="card-small">
+              <div
+                lines="none"
+                class=""
+                (click)="onLanguageSelection('English')"
+              >
+                <label
+                  class="radio-common-label"
+                >
+                  English
+                </label>
+                <input
+                  mode="md"
+                  class="radio-common static"
+                  slot="start"
+                  value="English"
+                />
+              </div>
+            </div>
+            <!-- <div class="card-small bg-clr-light bdr-1-104 disable">
+              <div lines="none" class="w100">
+                <label
+                  class="radio-common-label flex-wrap fs14px fw700 clr-01"
+                >
+                  हिन्दी
+                </label>
+                <input
+                  mode="md"
+                  class="radio-common static"
+                  slot="start"
+                  value="hindi"
+                />
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="animation-container" [hidden]="!showInteractiveVideo">
+    <button class="close-button" (click)="stopAnimation(true)">
+      <span> X </span>
+    </button>
+    <div class="play-button" *ngIf="isVideoPaused" (click)="playVideo()"></div>
+    <canvas #riveCanvas class="rive-canvas"></canvas>
+  </div>
+
+  <div class="winner-container" *ngIf="isHand1Winner">
+    <div class="">
+      <div class="pad-v32 pad-h16 br-16 cong-popover algn-cntr">
+        <div class="close_icon_wrapper flex-both-cntr">
+          <span class="close_icon" (click)="stopAnimation()"></span>
+        </div>
+        <div class="cong-title cgc-card-bg">
+          Congratulation!
+        </div>
+        <div class="">You have Won</div>
+        <div class="reward_wrapper" *ngIf="is1stTimeUser?.hand1">
+          <div class="orangeBG cgc-card-bg br-12">
+            <div
+              class="reward-title"
+            >
+              Here’s your reward
+            </div>
+        </div>
+        <div class="button-container">
+          <button
+            class="btn-large"
+            (click)="playHand2onClick()"> 
+Play Another Game</button>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="winner-container" *ngIf="isHand2Winner">
+    <div class="">
+      <div class="cong-popover cong-popover2">
+        <div class="close_icon_wrapper">
+          <span class="close_icon" (click)="stopAnimation()"></span>
+        </div>
+        <div class="cong-title">
+          Keep Playing<br />
+          On Adda52!
+        </div>
+        <div class="">
+          Here’s your reward for trying!
+        </div>
+        <div class="ticket-wrapper" *ngIf="is1stTimeUser?.hand2">
+          <div class="ticket-title">
+            <div class="">FREE</div>
+            <div class="">Tournament (MTT) Ticket</div>
+          </div>
+          <div class="prize-warpper">
+            <div class="img-wrapper">
+              <img
+                src="../../../../assets/images/interactive-tutorial/trophywithbg.png"
+                alt="Prize"
+              />
+            </div>
+            <div class="prize-details">
+              <div class="">Top Prize</div>
+              <div class="">₹ 1,00,000</div>
+            </div>
+          </div>
+        </div>
+        <div class="creditdata">
+          Ticket has been credited to your <br />
+          Adda52 wallet.
+        </div>
+        <div class="button-container">
+          <button class="btn-large"
+            >Register in Tournament with Ticket Now</button
+          >
+          <button
+            class=""
+            (click)="redirectToHand1()"
+            >More Practice? Let’s Go!</button
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

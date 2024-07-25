@@ -1,0 +1,257 @@
+.interactive-container {
+  min-height: 43rem;
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+  padding: 0rem;
+  margin-bottom: -1rem;
+  align-items: center;
+  background: linear-gradient(#12131e, #323548)
+}
+.language-selection-container {
+  padding: 20px;
+  background: #000;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.language-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.card-small {
+  width: 100%;
+  max-width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(149, 157, 165, 1);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-small:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.radio-common-label {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.animation-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(#12131e, #323548);
+  position: relative;
+}
+
+.animation-container canvas {
+  width: 100%;
+}
+
+.close-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: white;
+  font-size: large;
+  padding: 8px;
+  height: 36px;
+  width: 36px;
+  border-radius: 20px;
+  background-color: #7c7f90;
+  border: none;
+  cursor: pointer;
+}
+
+.close-button span {
+  top: 4.7px;
+  left: 4.7px;
+  height: 10.61px;
+  width: 10.61px;
+  display: contents;
+  position: absolute;
+}
+
+.winner-container {
+  background: url("../../../assets/images/interactive-tutorial/winnerbg.png");
+  position: absolute;
+  z-index: 2;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.cong-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.close_icon {
+  background: url("../../../assets/images/interactive-tutorial/baseclose.svg")
+    no-repeat;
+  width: 20px;
+  height: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.close_icon_wrapper {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #2c3a3a;
+  border-radius: 50%;
+  right: 16px;
+  top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cong-popover {
+  width: calc(100% - 32px);
+  border: 2px solid #e15d2c;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.trophy-wrapper {
+  width: 130px;
+  height: 130px;
+  box-shadow: 0px 0px 23.11px 0px #6b42d966;
+  background: linear-gradient(149.89deg, #9574eb 0%, #582cd0 100%);
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trophy-wrapper > img {
+  max-width: 86px;
+}
+
+.reward_wrapper {
+  position: relative;
+}
+
+.orangeBG {
+  display: inline-block;
+  padding: 43px 16px 16px;
+}
+
+.reward-title {
+  display: block;
+  white-space: nowrap;
+  width: 160px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-radius: 0 0 12px 12px;
+}
+
+.cus-mar-b12 {
+  margin-bottom: 12px !important;
+}
+
+.ticket-wrapper {
+  background: url("../../../assets/images/interactive-tutorial/ticket.png")
+    no-repeat;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.prize-warpper {
+  padding: 16px;
+  display: flex;
+  gap: 0 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.prize-warpper .img-wrapper {
+  max-width: 64px;
+}
+
+.prize-details {
+  text-align: left;
+}
+
+.ticket-title {
+  padding: 16px;
+  color: #fff3b4;
+  text-align: center;
+}
+
+.ticket-title > div:first-child {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.cong-popover2 {
+  background: linear-gradient(180deg, #1a2424 0%, #0f1616 100%);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.play-button {
+  border: 1px solid;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.clr-white {
+  color: white;
+}
+
+.clr-black {
+  color: rgba(0, 0, 0, 1);
+}
+
+.play-game-button {
+  border: 1px solid #ffffff;
+  background: #0f1717;
+  color: #ffffff;
+}
+
+.play-game-button button {
+  border: 1px solid #ffffff;
+  background: #0f1717;
+  color: #ffffff;
+}
+
+.button-container button {
+  font-size: 14px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
